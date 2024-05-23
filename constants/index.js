@@ -1,29 +1,25 @@
 export const exploreWorlds = [
   {
-    id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    id: 'oniframe-1',
+    imgUrl: '/lee_hyperreal.jpg',
+    title: 'Lee : Hyperreal',
   },
   {
-    id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    id: 'oniframe-2',
+    imgUrl: '/lucia_sucubus.jpg',
+    title: 'Lucia : Plume',
   },
   {
-    id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    id: 'oniframe-3',
+    imgUrl: '/liv_emprya.jpg',
+    title: 'Liv : Empyrea',
   },
   {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
-  },
+    id: 'oniframe-4',
+    imgUrl: '/cmd.png',
+    title: 'Commandant',
+  }
+
 ];
 
 export const startingFeatures = [
@@ -75,9 +71,9 @@ export const socials = [
     link: 'https://twitter.com/',
   },
   {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/',
+    name: 'discord',
+    url: '/discord.svg',
+    link: 'https://discord.gg/xG8Rc6Vv',
   },
   {
     name: 'instagram',
