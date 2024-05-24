@@ -1,7 +1,7 @@
 import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
 
-const Hone = () => (
+const Page = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
     <Hero />
@@ -25,4 +25,4 @@ const Hone = () => (
   </div>
 );
 
-export default Hone;
+export default Page;

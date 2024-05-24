@@ -17,7 +17,7 @@ const Navbar = () => (
         className="w-[24px] h-[24px] object-contain"
       />
       <h2 className="text-[24px] font-extrabold leading-[30px] text-white">
-        METAVESUS
+        GRAY RAVEN
       </h2>
       <img
         src="/menu.svg"
