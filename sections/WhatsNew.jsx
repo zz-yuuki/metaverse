@@ -20,7 +20,7 @@ const WhatsNew = () => (
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| What's New?" />
-        <TitleText title={<>What's new about Metavesus</>} />
+        <TitleText title={<>What's new about Gray Raven</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature, index) => (
             <NewFeatures key={feature} {...feature} />
@@ -31,10 +31,12 @@ const WhatsNew = () => (
         variants={planetVariants("right")}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
-          src="whats-new.png"
-          alt="whats-new"
-          className="w-[90%] h-[90%] object-contain"
+        <video
+          autoPlay
+          muted
+          src="liv_vid.mp4"
+          alt="liv_vid"
+          className=" rounded-full"
         />
       </motion.div>
     </motion.div>
