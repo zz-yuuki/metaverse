@@ -33,6 +33,7 @@ const WhatsNew = () => (
       >
         <video
           autoPlay
+          loop
           muted
           src="liv_vid.mp4"
           alt="liv_vid"
